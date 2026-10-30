@@ -58,6 +58,7 @@ The `GetBillDetailsAsync` tool returns JSON similar to:
 ```
 
 ## MCP Server Configuratin
+```json
 "mcpServers": 
   {
 	  "billservice": {
