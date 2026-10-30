@@ -57,6 +57,20 @@ The `GetBillDetailsAsync` tool returns JSON similar to:
 ]
 ```
 
+## MCP Server Configuratin
+"mcpServers": 
+  {
+	  "billservice": {
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "L:\\UnderDeveloping\\TutorialProjects\\DotnetTutorials\\MCPServerWithService\\",
+                "--no-build"
+            ]
+        }
+  }
+
 ## Notes
 
 This is a sample implementation intended to demonstrate how to expose a service method as an MCP tool in C#.
